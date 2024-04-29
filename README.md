@@ -9,8 +9,19 @@ environment. The only changes made by me:
 * Adjusted code in the "West Nile Virus Predictions.ipynb" (Cells with changed code marked with "# CHANGES MADE TO 
 THIS CELL")
 * Added a requirements.txt
+* updated .gitignore
 
+### Instructions for Reuse
+
+* Install Python 3.11.5
+* Create venv
+* `pip install requirements.txt`
+* `python -m ipykernel install --user --name=myenv --display-name="jupyter venv"`
+* launch jupyter lab with `jupyter lab`
+* select "jupyter venv" as kernel
+* run cells in the notebook in sequential order
  
+
 # West Nile Virus Predictions
 
 ### Problem Statement
